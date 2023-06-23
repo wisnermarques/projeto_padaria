@@ -4,6 +4,6 @@
 }
 
 #footer {
-     position: absolute;
-  height: calc(100%-75vh);
+    position: absolute;
+    height: calc(100%-75vh);
 }

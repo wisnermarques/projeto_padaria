@@ -1,202 +1,135 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Padaria do Ze</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="style.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <h2>Padaria do Zé</h2>
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNav"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contato.html">Contato</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sobre.html">Sobre</a>
-              </li>
-            </ul>
-          </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <h2>Padaria do Zé</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="imagens/img1.jpg" class="d-block w-100 img-fluid" alt="..." />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="imagens/img2.png" class="d-block w-100 img-fluid" alt="..." />
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="imagens/img3.jpg" class="d-block w-100 img-fluid" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/img1.jpg" class="d-block w-100 img-fluid" alt="..." />
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
-      </nav>
-      <div class="container">
-        <div
-          id="carouselExampleDark"
-          class="carousel carousel-dark slide"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="2"
-              aria-label="Slide 3"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide-to="3"
-              aria-label="Slide 4"
-            ></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img
-                src="imagens/img1.jpg"
-                class="d-block w-100 img-fluid"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img
-                src="imagens/img2.png"
-                class="d-block w-100 img-fluid"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img
-                src="imagens/img3.jpg"
-                class="d-block w-100 img-fluid"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                src="imagens/img1.jpg"
-                class="d-block w-100 img-fluid"
-                alt="..."
-              />
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleDark"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div>
     </header>
     <main class="container">
-      <h2 class="text-center mt-5 border-bottom border-top border-5">
-        Produtos:
-      </h2>
-      <div class="row">
-        <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-          <img class="img-fluid" src="imagens/img2.png" alt="" />
-          <p><strong class="fw-bold text-primary">R$ 26,90 (kg)</strong></p>
-          <hr />
+        <h2 class="text-center mt-5 border-bottom border-top border-5">
+            Produtos:
+        </h2>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                <img class="img-fluid" src="imagens/img2.png" alt="" />
+                <p><strong class="fw-bold text-primary">R$ 26,90 (kg)</strong></p>
+                <hr />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                <img class="img-fluid" src="imagens/img2.png" alt="" />
+                <p><strong class="fw-bold text-primary">R$ 26,90 (kg)</strong></p>
+                <hr />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                <img class="img-fluid" src="imagens/img2.png" alt="" />
+                <p><strong class="fw-bold text-primary">R$ 26,90 (kg)</strong></p>
+                <hr />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                <img class="img-fluid" src="imagens/img2.png" alt="" />
+                <p><strong class="fw-bold text-primary">R$ 26,90 (kg)</strong></p>
+                <hr />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                <img class="img-fluid" src="imagens/img2.png" alt="" />
+                <p><strong class="fw-bold text-primary">R$ 26,90 (kg)</strong></p>
+                <hr />
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 text-center">
+                <img class="img-fluid" src="imagens/img2.png" alt="" />
+                <p><strong class="fw-bold text-primary">R$ 26,90 (kg)</strong></p>
+                <hr />
+            </div>
         </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-          <img class="img-fluid" src="imagens/img2.png" alt="" />
-          <p><strong class="fw-bold text-primary">R$ 26,90 (kg)</strong></p>
-          <hr />
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-          <img class="img-fluid" src="imagens/img2.png" alt="" />
-          <p><strong class="fw-bold text-primary">R$ 26,90 (kg)</strong></p>
-          <hr />
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-          <img class="img-fluid" src="imagens/img2.png" alt="" />
-          <p><strong class="fw-bold text-primary">R$ 26,90 (kg)</strong></p>
-          <hr />
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-          <img class="img-fluid" src="imagens/img2.png" alt="" />
-          <p><strong class="fw-bold text-primary">R$ 26,90 (kg)</strong></p>
-          <hr />
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-          <img class="img-fluid" src="imagens/img2.png" alt="" />
-          <p><strong class="fw-bold text-primary">R$ 26,90 (kg)</strong></p>
-          <hr />
-        </div>
-      </div>
     </main>
-    <footer
-      class="container-fluid bg-dark bg-gradient text-center text-white p-4"
-    >
-      <div class="d-flex justify-content-center">
-        <a class="m-2" href="#"
-          ><h3><i class="bi bi-facebook"></i></h3
-        ></a>
-        <a class="m-2" href="#"
-          ><h3><i class="bi bi-linkedin"></i></h3
-        ></a>
-        <a class="m-2" href="#"
-          ><h3><i class="bi bi-whatsapp"></i></h3
-        ></a>
-      </div>
-      <h4>Desenvolvido por &copy; <strong>Wisner</strong></h4>
+    <footer class="container-fluid bg-dark bg-gradient text-center text-white p-4">
+        <div class="d-flex justify-content-center">
+            <a class="m-2" href="#">
+                <h3><i class="bi bi-facebook"></i></h3>
+            </a>
+            <a class="m-2" href="#">
+                <h3><i class="bi bi-linkedin"></i></h3>
+            </a>
+            <a class="m-2" href="#">
+                <h3><i class="bi bi-whatsapp"></i></h3>
+            </a>
+        </div>
+        <h4>Desenvolvido por &copy; <strong>Wisner</strong></h4>
     </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

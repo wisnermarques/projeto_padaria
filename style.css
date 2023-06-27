@@ -11,3 +11,7 @@
 main {
     min-height: 80vh;
 }
+
+.border {
+    max-height: 200px;
+}
